@@ -1,3 +1,5 @@
 accessing
 keyAtValue: anObject ifAbsent: aBlock
-	^ reversedObjects at: anObject ifAbsent: aBlock
+	^objects
+		keyAtValue: anObject 
+		ifAbsent: aBlock

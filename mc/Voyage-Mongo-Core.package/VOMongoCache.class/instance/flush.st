@@ -1,6 +1,6 @@
 accessing
 flush
-	self mutex critical: [
-		objects := WeakValueDictionary new.
-		reversedObjects := WeakKeyDictionary new.
-		versions := Dictionary new ].
+	self mutex 
+		critical: [
+			objects := WeakValueDictionary new.
+			timeStamps := Dictionary new ].

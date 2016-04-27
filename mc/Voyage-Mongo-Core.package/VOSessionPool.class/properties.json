@@ -1,5 +1,5 @@
 {
-	"category" : "Voyage-Mongo-Core-Pooling",
+	"category" : "Voyage-Mongo-Core",
 	"classinstvars" : [
 		"magmaServerHost",
 		"magmaServerPort",

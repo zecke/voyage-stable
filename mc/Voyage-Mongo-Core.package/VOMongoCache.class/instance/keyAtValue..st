@@ -1,3 +1,3 @@
 accessing
 keyAtValue: anObject
-	^ self keyAtValue: anObject ifAbsent: [ nil ]
+	^self keyAtValue: anObject ifAbsent: [ nil ]

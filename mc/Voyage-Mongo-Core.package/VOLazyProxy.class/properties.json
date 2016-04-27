@@ -1,10 +1,10 @@
 {
-	"category" : "Voyage-Mongo-Core-Utilities",
+	"category" : "Voyage-Mongo-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "HenrikSperreJohansen 5/8/2015 13:22",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"repository",
 		"objectClass",

@@ -7,7 +7,6 @@ performCompact
 		value ifNil: [ deadKeys add: key ] ].
 	deadKeys do: [ :each | 
 		objects removeKey: each.
-		versions removeKey: each ].
+		timeStamps removeKey: each ].
 	objects compact.
-	reversedObjects finalizeValues; compact.
-	versions compact.
+	timeStamps compact.
