@@ -8,7 +8,10 @@
 	"instvars" : [
 		"repository",
 		"pool",
-		"collections" ],
+		"collections",
+		"defaultInsertConcern",
+		"defaultUpdateConcern",
+		"defaultRemoveConcern" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],
