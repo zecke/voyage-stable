@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"mongoHost" : "EstebanLorenzano 4/21/2015 16:25",
-		"mongoHost:" : "EstebanLorenzano 4/21/2015 16:25" },
+		"mongoHost" : "HolgerHansPeterFreyther 5/14/2016 16:30:47",
+		"mongoHost:" : "HolgerHansPeterFreyther 5/14/2016 16:30:47" },
 	"instance" : {
-		"repository" : "FrancoisStephany 8/8/2012 15:03",
-		"setUp" : "EstebanLorenzano 4/21/2015 16:24",
-		"tearDown" : "EstebanLorenzano 4/21/2015 16:27" } }
+		"repository" : "HolgerHansPeterFreyther 5/14/2016 16:30:47",
+		"setUp" : "HolgerHansPeterFreyther 5/14/2016 22:54",
+		"tearDown" : "HolgerHansPeterFreyther 5/14/2016 16:30:47" } }

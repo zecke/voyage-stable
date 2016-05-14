@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"serializer" : "EstebanLorenzano 5/29/2012 16:57",
-		"testBasicSerialize" : "EstebanLorenzano 5/29/2012 16:48",
-		"testEmbededBasicCollectionSerialize" : "EstebanLorenzano 5/29/2012 17:20",
-		"testEmbededBasicDictionarySerialization" : "EstebanLorenzano 5/29/2012 17:42",
-		"testEmbededSerialize" : "EstebanLorenzano 5/29/2012 16:47",
-		"testShadowSerialize" : "FrancoisStephany 9/20/2012 16:18" } }
+		"serializer" : "HolgerHansPeterFreyther 5/14/2016 16:30:47",
+		"testBasicSerialize" : "HolgerHansPeterFreyther 5/14/2016 16:30:47",
+		"testEmbededBasicCollectionSerialize" : "HolgerHansPeterFreyther 5/14/2016 16:30:47",
+		"testEmbededBasicDictionarySerialization" : "HolgerHansPeterFreyther 5/14/2016 16:30:47",
+		"testEmbededSerialize" : "HolgerHansPeterFreyther 5/14/2016 16:30:47",
+		"testShadowSerialize" : "HolgerHansPeterFreyther 5/14/2016 16:30:47" } }
