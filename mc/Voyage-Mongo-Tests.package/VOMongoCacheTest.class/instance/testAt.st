@@ -12,4 +12,4 @@ testAt
 	object := nil.
 	Smalltalk garbageCollect.
 	
-	self assert: (cache at: 42 ifAbsent: [ nil ]) isNil
+	self assert: (cache at: 42) isNil

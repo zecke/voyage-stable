@@ -13,6 +13,6 @@ testKeyAtValue
 	object := nil.
 	Smalltalk garbageCollect.
 	
-	self assert: (cache at: 42 ifAbsent: [ nil ]) isNil.
+	self assert: (cache at: 42) isNil.
 	cache performCompact.
-	self deny: ((cache instVarNamed: 'reversedObjects') values includes:42)
+	self deny: ((cache instVarNamed: 'timeStamps') values includes:42)

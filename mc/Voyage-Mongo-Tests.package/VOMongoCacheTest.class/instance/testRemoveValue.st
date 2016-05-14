@@ -12,8 +12,7 @@ testRemoveValue
 	
 	cache removeValue: object.
 
-	self assert: (cache at: 42 ifAbsent: [ nil ]) isNil.
+	self assert: (cache at: 42) isNil.
 
 	self assert: (cache instVarNamed: 'objects') isEmpty	.
-	self assert: (cache instVarNamed: 'reversedObjects') isEmpty.
-	self assert: (cache instVarNamed: 'versions') isEmpty
+	self assert: (cache instVarNamed: 'timeStamps') isEmpty
