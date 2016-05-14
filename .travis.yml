@@ -4,9 +4,14 @@ smalltalk:
   - Pharo-5.0
   - Pharo-4.0
   - Pharo-3.0
-services: mongodb
-env:
-  global:
-    - BASELINE="VoyageMongo"
-    - PACKAGES="mc"
-    - TESTS="Voyage.*"
+addons:
+  apt:
+    sources:
+      - mongodb-3.0-precise
+    packages:
+      - libssl1.0.0:i386
+      - mongodb-org-server
+
+script:
+  - ln -s /lib/i386-linux-gnu/libcrypto.so.1.0.0 libcrypto.so
+  - LD_LIBRARY_PATH=$PWD $SMALLTALK_CI_HOME/run.sh
