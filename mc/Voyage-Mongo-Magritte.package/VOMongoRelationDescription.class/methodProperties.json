@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"defaultKindCollection" : "",
-		"defaultLazy" : "EstebanLorenzano 4/13/2013 20:59" },
+		"defaultKindCollection" : "EstebanLorenzano 1/19/2016 14:16:41",
+		"defaultLazy" : "EstebanLorenzano 1/19/2016 14:16:41" },
 	"instance" : {
-		"beEager" : "EstebanLorenzano 5/7/2012 19:12",
-		"beLazy" : "EstebanLorenzano 5/7/2012 19:12",
-		"convertNull" : "",
-		"convertNullTo:" : "",
-		"convertNullToEmpty" : "",
-		"isEager" : "EstebanLorenzano 5/7/2012 19:12",
-		"isLazy" : "EstebanLorenzano 5/7/2012 19:12",
-		"isRelation" : "EstebanLorenzano 5/7/2012 19:01",
-		"kindCollection" : "",
-		"kindCollection:" : "" } }
+		"beEager" : "EstebanLorenzano 1/19/2016 14:16:41",
+		"beLazy" : "EstebanLorenzano 1/19/2016 14:16:41",
+		"convertNull" : "EstebanLorenzano 1/19/2016 14:16:41",
+		"convertNullTo:" : "EstebanLorenzano 1/19/2016 14:16:41",
+		"convertNullToEmpty" : "EstebanLorenzano 1/19/2016 14:16:41",
+		"isEager" : "EstebanLorenzano 1/19/2016 14:16:41",
+		"isLazy" : "EstebanLorenzano 1/19/2016 14:16:41",
+		"isRelation" : "EstebanLorenzano 1/19/2016 14:16:41",
+		"kindCollection" : "EstebanLorenzano 1/19/2016 14:16:41",
+		"kindCollection:" : "EstebanLorenzano 1/19/2016 14:16:41" } }
