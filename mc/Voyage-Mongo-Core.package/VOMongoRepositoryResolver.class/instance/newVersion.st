@@ -1,3 +1,3 @@
 private
 newVersion 
-	^UUIDGenerator new makeSeed
+	^(OsmoSecureRandom rand: 4) asInteger. "UUIDGenerator new makeSeed"
