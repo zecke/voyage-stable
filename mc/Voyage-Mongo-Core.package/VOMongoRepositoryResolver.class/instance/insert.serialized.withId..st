@@ -7,7 +7,6 @@ insert: anObject serialized: jsonDictionary withId: aOID
 				yourself).
 		(self insertConcernFor: anObject class) ifNotNil: [:concern |
 			| res |
-			concern at: 'getLastError' put: 1.
 			res := db command: concern.
 			(res at: 'err' ifAbsent: [nil]) ifNotNil: [
 				^self error: 'Inserting failed']]].
