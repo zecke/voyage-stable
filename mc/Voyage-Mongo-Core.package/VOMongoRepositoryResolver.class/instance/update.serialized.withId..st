@@ -9,7 +9,7 @@ update: anObject serialized: jsonDictionary withId: aOID
 		(self updateConcernFor: anObject class) ifNotNil: [:concern |
 			| res |
 			res := db command: concern.
-			(res at: 'err' ifAbsent: [nil]) ifNotNil: [
+			((res at: 'ok' ifAbsent: [1]) = 1) ifFalse: [
 				^self error: 'Updating failed']] ].
 
 	^aOID
