@@ -11,7 +11,10 @@
 		"collections",
 		"defaultInsertConcern",
 		"defaultUpdateConcern",
-		"defaultRemoveConcern" ],
+		"defaultRemoveConcern",
+		"insertConcerns",
+		"removeConcerns",
+		"updateConcerns" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],
