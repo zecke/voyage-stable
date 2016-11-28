@@ -10,7 +10,7 @@ withDatabase: aBlock
 		db username: self username password: self password.
 	].
 	[ [ ^aBlock value: db ]
-	  on: Error do: [ :e | 
+	  on: Error - VOMongoInsertError do: [ :e |
 		session close; open. 
 		e resignalAs: VOMongoConnectionError new ] ]
 	ensure: [self returnToPool: session]

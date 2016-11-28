@@ -8,7 +8,6 @@ insert: anObject serialized: jsonDictionary withId: aOID
 		(self insertConcernFor: anObject class) ifNotNil: [:concern |
 			| res |
 			res := db command: concern.
-			((res at: 'ok' ifAbsent: [1]) = 1) ifFalse: [
-				^self error: 'Inserting failed']]].
-
+			(res at: 'code' ifAbsent: [nil]) ifNotNil: [:code |
+				^(VOMongoInsertError code: code) signal]]].
 	^aOID

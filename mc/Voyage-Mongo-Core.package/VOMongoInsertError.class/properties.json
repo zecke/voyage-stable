@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"code" ],
+	"name" : "VOMongoInsertError",
+	"pools" : [
+		 ],
+	"super" : "VOMongoError",
+	"type" : "normal" }
