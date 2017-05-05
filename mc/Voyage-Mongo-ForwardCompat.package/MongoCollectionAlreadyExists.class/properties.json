@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-ForwardCompat",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"collectionName" ],
+	"name" : "MongoCollectionAlreadyExists",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
