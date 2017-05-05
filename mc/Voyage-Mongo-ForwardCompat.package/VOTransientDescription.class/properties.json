@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-ForwardCompat",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VOTransientDescription",
+	"pools" : [
+		 ],
+	"super" : "VOMongoTransientDescription",
+	"type" : "normal" }

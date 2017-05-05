@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-ForwardCompat",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VOJSONVisitor",
+	"pools" : [
+		 ],
+	"super" : "VOMongoSerializer",
+	"type" : "normal" }

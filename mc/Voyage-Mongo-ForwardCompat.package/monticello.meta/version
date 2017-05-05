@@ -1,0 +1,1 @@
+(name 'Voyage-Mongo-ForwardCompat-HolgerHansPeterFreyther.1' message 'Add packages for forward compabilityThis allows the old Voyage look a bit more like the new one. It adds forward compats for classes frequently used.' id 'e1f93e73-94bc-42ef-a574-62dec8c596f2' date '5 May 2017' time '11:39:05.698799 pm' author 'HolgerHansPeterFreyther' ancestors () stepChildren ())
