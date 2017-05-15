@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-Mongo-Utils-Hacks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "HolgerHansPeterFreyther 4/26/2017 13:39",
+	"instvars" : [
+		"w",
+		"j",
+		"wtimeout" ],
+	"name" : "MongoWriteConcern",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
