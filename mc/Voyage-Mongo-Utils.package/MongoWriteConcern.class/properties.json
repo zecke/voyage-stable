@@ -8,7 +8,8 @@
 	"instvars" : [
 		"w",
 		"j",
-		"wtimeout" ],
+		"wtimeout",
+		"cachedDict" ],
 	"name" : "MongoWriteConcern",
 	"pools" : [
 		 ],
