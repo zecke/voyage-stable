@@ -5,6 +5,6 @@ basicRemove: anObject
 			delete: { '_id'->(self keyOf: anObject)} asDictionary.
 		(self removeConcernFor: anObject class) ifNotNil: [:concern |
 			| res |
-			res := db command: concern.
+			res := db command: concern concernForGetLastError.
 			((res at: 'ok' ifAbsent: [1]) = 1) ifFalse: [
 				^self error: 'Removing failed']]]

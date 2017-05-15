@@ -1,7 +1,10 @@
 running
 setUp
 	| concern  |
-	concern := { 'w' -> 1. 'wtimeout' -> 1000. 'j' -> true } asDictionary.
+	concern := MongoWriteConcern new
+					w: 1;
+					wtimeout: 1000;
+					j: true.
 	super setUp.
 	repository := (VOMongoRepository 
 		host: self class mongoHost
