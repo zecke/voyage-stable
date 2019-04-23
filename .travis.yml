@@ -11,8 +11,8 @@ services:
 
 matrix:
   include:
-    - smalltalk: Pharo-7.0
-      smalltalk_config: .smalltalk.ston
+#    - smalltalk: Pharo-7.0
+#      smalltalk_config: .smalltalk.ston
 # disabling unqlite for now as there is a FFI problem preventing unqlite lib zu work
 # Esteban will fix that later when the right vm is there
 #    - smalltalk: Pharo-7.0
@@ -20,20 +20,24 @@ matrix:
 #      smalltalk_config: .smalltalk-unqlite.ston
     - smalltalk: Pharo-7.0
       smalltalk_config: .smalltalk-multiple.ston
-    - smalltalk: Pharo-6.1
-      smalltalk_config: .smalltalk-legacy.ston
+#    - smalltalk: Pharo-6.1
+#      smalltalk_config: .smalltalk-legacy.ston
 #    - smalltalk: Pharo-6.1
 #      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
 #      smalltalk_config: .smalltalk-unqlite.ston
-    - smalltalk: Pharo-6.1
-      smalltalk_config: .smalltalk-multiple.ston
-    - smalltalk: Pharo-5.0
-      smalltalk_config: .smalltalk-legacy.ston
-    - smalltalk: Pharo-5.0
-      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
-      smalltalk_config: .smalltalk-unqlite.ston
-    - smalltalk: Pharo-5.0
-      smalltalk_config: .smalltalk-multiple.ston
+#    - smalltalk: Pharo-6.1
+#      smalltalk_config: .smalltalk-multiple.ston
+#    - smalltalk: Pharo-5.0
+#      smalltalk_config: .smalltalk-legacy.ston
+#    - smalltalk: Pharo-5.0
+#      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
+#      smalltalk_config: .smalltalk-unqlite.ston
+#    - smalltalk: Pharo-5.0
+#      smalltalk_config: .smalltalk-multiple.ston
+
+
+script:
+- bash -x $SMALLTALK_CI_HOME/run.sh
 
 # Target mongodb v3.0 as lowest version
 addons:
