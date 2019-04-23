@@ -7,6 +7,9 @@ baseline: spec
 		self mongoTalk: spec.
 		self punqlite: spec.
 		self imageWorker: spec.
+
+		spec
+                        postLoadDoIt: #'postload:package:'.
 		
 		spec
 			"core"
