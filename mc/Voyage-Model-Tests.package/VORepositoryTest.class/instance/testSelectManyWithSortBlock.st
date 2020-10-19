@@ -13,5 +13,5 @@ testSelectManyWithSortBlock
 	self waitForWriteOperation.
 	fetched := self repository
 		selectMany: VOTestPilot
-		where: nil
+		where: [ :each | each name notNil ]
 		sortBy: #name
