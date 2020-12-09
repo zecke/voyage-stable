@@ -1,4 +1,7 @@
 accessing
-cacheObject: anObject id: anId version: aVersion
-	self at: anId put: anObject.
-	self at: anId putVersion: aVersion 
+cacheObject: anObject id: anOID version: aVersion
+	self compactIfNeeded.
+	self mutex critical: [ 
+		objects at: anOID put: anObject.
+		reversedObjects at: anObject put: anOID.
+		versions at: anOID put: aVersion].

@@ -1,10 +1,11 @@
 private retrieving
 retrieveInstanceOf: aClass json: jsonDictionary lazy: isLazy
 
-	| id cachedVersion jsonVersion cachedObject result | 
+	| id cachedVersion jsonVersion cachedObject cacheResult result | 
 	id := jsonDictionary at: VOMongoJSONSerializer fieldRootId.
-	cachedObject := self cacheAt: id.
-	cachedVersion := self cacheVersionAt: id.
+	cacheResult := self cache objectAndVersionAt: id.
+	cachedObject := cacheResult first.
+	cachedVersion := cacheResult second.
 	jsonVersion := jsonDictionary at: VOMongoJSONSerializer fieldVersion ifAbsent: [ 0 ].
 	result := cachedObject.
 	
